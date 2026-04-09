@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ud/glattalp-block",
+  "title": "Glattalp Block",
+  "category": "widgets",
+  "icon": "chart-line",
+  "description": "Zeigt aktuelle Messwerte und den historischen Tiefstwert der Glattalp an.",
+  "editorScript": "file:./build/editor-script.js",
+  "editorStyle": "file:./build/editor-style.css",
+  "script": "file:./build/frontend-script.js",
+  "style": "file:./build/frontend-style.css",
+  "attributes": {
+    "dataUrl": {
+      "type": "string",
+      "default": "/wp-content/messdaten/data-glattalp.json"
+    },
+    "temperatureKey": {
+      "type": "string",
+      "default": "Aussentemperatur_Glattalp_C"
+    },
+    "snowKey": {
+      "type": "string",
+      "default": "Schneehoehe_Glattalp_cm"
+    },
+    "temperatureHeading": {
+      "type": "string",
+      "default": "Temperatur"
+    },
+    "snowHeading": {
+      "type": "string",
+      "default": "Schneehöhe"
+    },
+    "recordHeading": {
+      "type": "string",
+      "default": "Tiefstwert"
+    },
+    "showTemperature": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSnow": {
+      "type": "boolean",
+      "default": true
+    },
+    "showRecord": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false
+  }
+}

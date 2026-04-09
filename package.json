@@ -1,0 +1,13 @@
+{
+  "name": "ud-glattalp-block",
+  "version": "1.0.0",
+  "description": "UD Block: Glattalp Block",
+  "private": true,
+  "scripts": {
+    "start": "wp-scripts start --config webpack.config.js",
+    "build": "wp-scripts build --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  }
+}

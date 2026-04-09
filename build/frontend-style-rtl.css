@@ -1,0 +1,125 @@
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/frontend.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+.wp-block-ud-glattalp-block {
+  width: 1350px;
+  margin-top: 2rem;
+  max-width: calc(100% - 40px);
+  color: var(--wp--preset--color--petrol);
+  padding-bottom: 20vw;
+}
+.wp-block-ud-glattalp-block section {
+  margin-top: 2rem;
+  max-width: calc(100% - 40px);
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row {
+  display: flex;
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row.row_01 {
+  width: 100%;
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row.row_01 .ud-glattalp-card {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row h2 {
+  font-family: inherit;
+  font-size: 1.25rem;
+  text-align: right;
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid var(--wp--preset--color--petrol);
+  color: var(--wp--preset--color--petrol);
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row .ud-glattalp-value-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row .ud-glattalp-value-container .ud-glattalp-number {
+  font-size: 9rem;
+  line-height: 1;
+  color: var(--wp--preset--color--sand-dark);
+}
+@media screen and (max-width: 1200px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row .ud-glattalp-value-container .ud-glattalp-number {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row .ud-glattalp-value-container .ud-glattalp-number {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row .ud-glattalp-value-container .ud-glattalp-number {
+    font-size: 5rem;
+  }
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row .ud-glattalp-value-container .ud-glattalp-unit {
+  font-size: 2rem;
+  color: var(--wp--preset--color--sand-dark);
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row .ud-glattalp-meta {
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row.row_02 {
+  justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row.row_02 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row.row_02 .ud-glattalp-value-container {
+  margin-top: 0.75rem;
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row.row_02 .ud-glattalp-value-container .ud-glattalp-number {
+  font-size: 4rem;
+}
+@media screen and (max-width: 1200px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row.row_02 .ud-glattalp-value-container .ud-glattalp-number {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row.row_02 .ud-glattalp-value-container .ud-glattalp-number {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row.row_02 .ud-glattalp-value-container .ud-glattalp-number {
+    font-size: 2rem;
+  }
+}
+.wp-block-ud-glattalp-block section .ud-glattalp-row svg {
+  width: 60px;
+  fill: var(--wp--preset--color--petrol);
+}
+@media screen and (max-width: 1300px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row svg {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .wp-block-ud-glattalp-block section .ud-glattalp-row svg {
+    width: 40px;
+  }
+}
+.wp-block-ud-glattalp-block section + section {
+  margin-top: 10rem;
+}
+@media screen and (max-width: 600px) {
+  .wp-block-ud-glattalp-block section + section {
+    margin-top: 5rem;
+  }
+}
