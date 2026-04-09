@@ -34,7 +34,9 @@ Beispielstruktur der JSON-Datei:
 
 ## Block-Attribute
 
+```json
 dataUrl
+```
 Pfad zur JSON-Datei
 Standard: /wp-content/messdaten/data-glattalp.json
 
@@ -77,29 +79,6 @@ Berechnet werden:
 * Tiefstwert der letzten 30 Tage
 * Rekordwert aus WordPress-Optionen
 
-## Plugin-Struktur
-
-ud-glattalp-block/
-├── block.json
-├── ud-glattalp-block.php
-├── includes/
-│   ├── block-register.php
-│   ├── helpers.php
-│   ├── render.php
-│   └── rest-api.php
-├── src/
-│   ├── js/
-│   │   ├── edit.js
-│   │   ├── editor.js
-│   │   └── save.js
-│   └── css/
-│       ├── editor.scss
-│       └── frontend.scss
-├── build/
-│   ├── editor-script.js
-│   ├── editor-style.css
-│   ├── frontend-script.js
-│   └── frontend-style.css
 
 ## Anforderungen
 
