@@ -14,20 +14,32 @@ Ausgegeben werden die aktuelle Temperatur, die aktuelle Schneehöhe sowie defini
 * Auswahl einer JSON-Datei über einen eigenen REST-API-Endpunkt
 * Server-Side Rendering im Frontend
 
+## Screenshots
+
+![Frontend-Ansicht](./assets/glattalp_frontend.png)
+*Darstellung der Messstation mit aktuellen Werten.*
+
+![Editor-Ansicht](./assets/glattalp_editor.png)
+*Der Block im Editor mit Auswahlfeld für die JSON-Datei und sichtbaren Messwerten.*
+
 ## Datenquelle
 
-Standardmässig wird folgende Datei verwendet:
+Standardmässig wird folgende Datei verwendet: `/wp-content/messdaten/data-glattalp.json`
 
-/wp-content/messdaten/data-glattalp.json
+Die JSON-Datei enthält ein Array von Messpunkten. Jeder Eintrag besteht aus einem Zeitstempel sowie den Messwerten für Temperatur und Schneehöhe.
 
-Beispielstruktur der JSON-Datei:
 
 ```json
 [
   {
-    "time": "2026-01-01 12:00:00",
-    "Aussentemperatur_Glattalp_C": -15.2,
-    "Schneehoehe_Glattalp_cm": 120
+    "time": "2026-02-27T15:35:01",
+    "Aussentemperatur_Glattalp_C": 4.5,
+    "Schneehoehe_Glattalp_cm": 176
+  },
+  {
+    "time": "2026-02-27T15:40:01",
+    "Aussentemperatur_Glattalp_C": 4.3,
+    "Schneehoehe_Glattalp_cm": 176
   }
 ]
 ```
