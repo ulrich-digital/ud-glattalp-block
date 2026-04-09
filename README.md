@@ -34,9 +34,7 @@ Beispielstruktur der JSON-Datei:
 
 ## Block-Attribute
 
-```json
 dataUrl
-```
 Pfad zur JSON-Datei
 Standard: /wp-content/messdaten/data-glattalp.json
 
