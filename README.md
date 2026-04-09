@@ -34,49 +34,18 @@ Beispielstruktur der JSON-Datei:
 
 ## Block-Attribute
 
-### dataUrl
+`dataUrl` Pfad zur JSON-Datei
 
-Pfad zur JSON-Datei
+`temperatureKey` Key für den Temperaturwert innerhalb der JSON-Daten
 
-Standard:  
-/wp-content/messdaten/data-glattalp.json
-
----
-
-### temperatureKey
-
-Key für den Temperaturwert innerhalb der JSON-Daten
-
-Standard:  
-Aussentemperatur_Glattalp_C
-
----
-
-### snowKey
-
-Key für die Schneehöhe innerhalb der JSON-Daten
-
-Standard:  
-Schneehoehe_Glattalp_cm
+`snowKey` Key für die Schneehöhe innerhalb der JSON-Daten
 
 ## REST API
 
-Endpoint:
+Endpoint: `/wp-json/ud/glattalp/scan-json`
 
-/wp-json/ud/glattalp/scan-json
+Listet alle JSON-Dateien im Verzeichnis `/wp-content/messdaten/` auf.
 
-Listet alle JSON-Dateien im Verzeichnis /wp-content/messdaten/ auf.
-
-Beispiel:
-
-```json
-[
-  {
-    "label": "data-glattalp.json",
-    "value": "/wp-content/messdaten/data-glattalp.json"
-  }
-]
-```
 
 ## Rendering
 
